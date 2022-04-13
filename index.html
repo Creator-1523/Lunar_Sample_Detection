@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Walkers</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="{{url_for("static",filename="css/style.css")}}">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo">Moon Walkers.</a>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Lunar Sample Detection</h3>
+            <p>We have build machine learning solution where it studies the difference of the lunar samples .</p>
+            <!-- <a href="#" class="btn">try for free</a> -->
+        </div>
+
+        <div class="image">
+            <img src="{{"static",filename="images/rocket.svg"}}" alt="">
+        </div>
+
+        <div class="cloud cloud-1"></div>
+        <div class="cloud cloud-2"></div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading"> Our <span>System</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images\landscape.jpg" alt="">
+                <h3>Segmentation</h3>
+                <p>Segmentation of the landscape by identifying areas of interest</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+            <div class="box">
+                <img src="images/s-2.png" alt="">
+                <h3>Analyse</h3>
+                <p>Analyse the sample using onboard instruments </p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+            <div class="box">
+                <img src="images/s-3.png" alt="">
+                <h3>Final Implementation</h3>
+                <p>passing these the ML algorithm which will return the type of mineral so that we can consider whether or not to include it.</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+
+           
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <!-- <h1 class="heading"> <span>about</span> us </h1> -->
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images\ny_mars-rover.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="title">View Segmentation Analysis</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias blanditiis, fugiat consequatur enim
+                    amet ullam facere quaerat, quos quae mollitia inventore! Hic, excepturi debitis velit maxime ut in
+                    at iusto.</p>
+                <!-- <a href="#" class="btn">learn more</a> -->
+                    
+                        <form method="post" action="{{url_for('upload')}}" enctype="multipart/form-data">
+                            
+                                
+                                    <input class="btn"   type="file" name="file" autocomplete="off" required>
+                                    <input class="btn" type="submit" value="Submit" >
+                                
+                            
+                        </form>
+                 
+
+                        <!-- </p> 
+                         <input type="text" name="temp" class="form-control" placeholder="Enter Transection ID:"
+                            aria-label="Humidity" aria-describedby="button-addon2"> 
+
+                         <button class="btn btn-primary" style="margin: 10px;" type="submit" id="button-addon2">Enter
+                        </button>
+                        <button type="submit"  class="btn btn-primary">Enter</button> -->
+                    
+
+                
+
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+   
+
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
