@@ -16,7 +16,11 @@ We will build machine learning solution where it studies the difference of the l
 2. Analyse the sample using onboard instruments 
 3. Passing these the ML algorithm which will return the type of mineral so that we can consider whether or not to include it. 
 
+# Model Prediction 
+![render0001](https://user-images.githubusercontent.com/84783465/163251392-31ec91e1-c2dd-410b-90d0-b7c1ad4b3c81.png)
 
 
+
+![render0001 png](https://user-images.githubusercontent.com/84783465/163251356-13bea286-b0e2-4755-982a-4f151c4c1d90.png)
 
 
